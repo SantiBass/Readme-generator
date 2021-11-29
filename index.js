@@ -44,21 +44,22 @@ const questions = [
         type: 'input',
         message : "What command should  be run to install dependencies? ",
         name : 'installation'
-        // validate: (value)=> {if(value){return true}else {return 'you need a value to cntinue'}}
+        // validate
+        
 
     },
     {
         type: 'input',
         message : "What command should be run to run test? ",
         name : 'runTest'
-        // validate: (value)=> {if(value){return true}else {return 'you need a value to cntinue'}}
+        // validate
 
     },
     {
         type: 'input',
         message : "What does the user need to know about using the repo? ",
         name : 'repoUse'
-        // validate: (value)=> {if(value){return true}else {return 'you need a value to cntinue'}}
+        // validate
 
     },
     {
@@ -87,7 +88,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(data => {
-    const readmeFile = generateMardown(data);
+    const readmeFile = generateMardown.generateMarkdown(data);
     writeToFile("README.md", readmeFile ) 
 
     
