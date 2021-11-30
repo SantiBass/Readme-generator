@@ -58,14 +58,6 @@ function generateMarkdown(data) {
   * [Test](#test)
 
   * [Questions](#questions)
-
-
-
-
-  
-  
- 
-
 ## Installation
 
   ${"To install the necessary dependencies, run the folloging command: \n"}
@@ -80,10 +72,10 @@ ${renderLicenseLink(data.license)}
 
 
 ## Contributing
-###  ${data.contribution}
+${data.contribution}
 
 ## Test
-### You can run a test by: ${data.test}  
+### You can run a test by typing: ${data.test}  
 
 ## Questions
 ${"If you have questions please send email at: "}${data.contact}
