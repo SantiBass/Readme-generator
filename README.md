@@ -1,7 +1,7 @@
 
    
  
- # Repo README
+ # README-generator
  
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -36,7 +36,7 @@
  You can find information about MIT opensource here: https://choosealicense.com/licenses/mit/
 
  
- null
+ test
 
 
 ## Installation
@@ -46,7 +46,7 @@
   npm i
 
 ## Usage
-null
+test
 
 ## License
 ### This project is licensed by typing:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -59,7 +59,7 @@ null
 ### You can run a test by: test  
 
 ## Questions
-If you have questions please send email at: sibarraryan@gmaul.com
+If you have questions please send email at: sibarraryan@gmail.com
 
  
  
