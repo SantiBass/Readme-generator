@@ -1,7 +1,7 @@
 
    
  
- # repo
+ # Repo README
  
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@
   ## Description
   Description: 
 
-  asd dasdf asd asdf 
+  test
 
 
 ## Table of Content
@@ -36,30 +36,30 @@
  You can find information about MIT opensource here: https://choosealicense.com/licenses/mit/
 
  
- asdf
+ null
 
 
 ## Installation
 
   To install the necessary dependencies, run the folloging command: NPM i  
 
-  test
+  npm i
 
 ## Usage
-dfs
+null
 
 ## License
-### This project is licensed by:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### This project is licensed by typing:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Contributing
-### asd dasdf asd asdf 
+### test
 
 ## Test
 ### You can run a test by: test  
 
 ## Questions
-If you have questions please send email at: @sdfgfg
+If you have questions please send email at: sibarraryan@gmaul.com
 
  
  
