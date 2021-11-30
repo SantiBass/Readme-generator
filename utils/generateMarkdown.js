@@ -40,8 +40,7 @@ function generateMarkdown(data) {
  
  
   ${renderLicenseBadge(data.license)}
- ## GitHub: https://github.com/${data.userName}
-
+ 
   ## Description
   ${data.description}
   
@@ -82,10 +81,11 @@ ${renderLicenseLink(data.license)}
 ${data.contribution}
 
 ## Test
-### You can run a test by typing: ${data.test}  
+### You can run a test by typing: ${data.test} . 
 
 ## Questions
-### If you have questions please send email at: ${data.contact}
+### If you have questions please send email at: ${data.contact}.
+### visit my GitHub: https://github.com/${data.userName}
 ### Also, you can watch this video: https://drive.google.com/file/d/1HAT8-7O6-EM6609ouLCXWcDzST3nw3_H/view
 
   `
