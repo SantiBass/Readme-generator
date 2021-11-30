@@ -7,7 +7,7 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
   ## Description
-  This is for practice
+  It is for practice
   
 
 
@@ -35,7 +35,7 @@
   
 
 ## Usage
-it is for practice
+it is for practice.
 
 ## License
 ### This project is licensed by:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -44,13 +44,13 @@ You can find information about MIT license here: https://choosealicense.com/lice
 
 
 ## Contributing
-contributing is welcomed
+Contributing is welcomed
 
 ## Test
 ### You can run a test by typing: test  
 
 ## Questions
-### "If you have questions please send email at: sibarraryan@gmail.com
-### Also, you can watch this video: 
+### If you have questions please send email at: sibarraryan@gmail.com
+### Also, you can watch this video: https://drive.google.com/file/d/1HAT8-7O6-EM6609ouLCXWcDzST3nw3_H/view
 
   

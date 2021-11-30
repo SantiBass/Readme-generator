@@ -84,7 +84,7 @@ ${data.contribution}
 ### You can run a test by typing: ${data.test}  
 
 ## Questions
-### "If you have questions please send email at: ${data.contact}
+### If you have questions please send email at: ${data.contact}
 ### Also, you can watch this video: https://drive.google.com/file/d/1HAT8-7O6-EM6609ouLCXWcDzST3nw3_H/view
 
   `
