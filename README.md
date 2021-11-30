@@ -1,13 +1,14 @@
 
    
  
- # README-Generator
+ # README-Genarator
  
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- 
+ ## GitHub: https://github.com/SantiBass
+
   ## Description
-  It is for practice
+  It is for practicing Node.js.
   
 
 
@@ -35,7 +36,7 @@
   
 
 ## Usage
-it is for practice.
+This is a Node.js practice repo.
 
 ## License
 ### This project is licensed by:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -44,7 +45,7 @@ You can find information about MIT license here: https://choosealicense.com/lice
 
 
 ## Contributing
-Contributing is welcomed
+Contribution to this repo is welcomed.
 
 ## Test
 ### You can run a test by typing: test  

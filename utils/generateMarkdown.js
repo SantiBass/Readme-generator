@@ -40,7 +40,8 @@ function generateMarkdown(data) {
  
  
   ${renderLicenseBadge(data.license)}
- 
+ ## GitHub: https://github.com/${data.userName}
+
   ## Description
   ${data.description}
   
