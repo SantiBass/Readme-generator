@@ -85,7 +85,7 @@ ${data.contribution}
 
 ## Questions
 ### "If you have questions please send email at: ${data.contact}
-### Also, you can watch this video: 
+### Also, you can watch this video: https://drive.google.com/file/d/1HAT8-7O6-EM6609ouLCXWcDzST3nw3_H/view
 
   `
 }
