@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license === "MIT"){
-    return `You can find information about MIT opensource here: https://choosealicense.com/licenses/mit/`
+    return `You can find information about MIT license here: https://choosealicense.com/licenses/mit/`
   }else{
     return "";
   }
@@ -24,7 +24,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
 
   if(license === "MIT"){
-    return '- [License](#license)';
+    return ' [License](#license)' ;
 
   }else {
     return "";
@@ -42,7 +42,6 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
  
   ## Description
-  ${"Description: \n"}
   ${data.description}
 
 
@@ -52,7 +51,7 @@ function generateMarkdown(data) {
   
   * [Usage](#usage\n)
   
-  * [License](#license)
+  * ${renderLicenseSection(data.license)}
 
   * [Contributing](#contributing)
 
@@ -62,41 +61,33 @@ function generateMarkdown(data) {
 
 
 
-${renderLicenseSection(data.license)}
-  
 
   
- ${renderLicenseLink(data.license)}
-
+  
  
- ${data.contribution}
-
 
 ## Installation
 
-  ${"To install the necessary dependencies, run the folloging command: NPM i  \n"}
+  ${"To install the necessary dependencies, run the folloging command: \n"}
   ${data.installation}
 
 ## Usage
 ${data.repoUse}
 
 ## License
-### This project is licensed by typing:  ${renderLicenseBadge(data.license)}
+### This project is licensed by:  ${renderLicenseBadge(data.license)}
+${renderLicenseLink(data.license)}
 
 
 ## Contributing
-### ${data.description}
+###  ${data.contribution}
 
 ## Test
 ### You can run a test by: ${data.test}  
 
 ## Questions
 ${"If you have questions please send email at: "}${data.contact}
-
- 
- 
   `
-  
 }
 
 module.exports = {generateMarkdown};

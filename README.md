@@ -1,15 +1,13 @@
 
    
  
- # README-generator
+ # README-Generator
  
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
   ## Description
-  Description: 
-
-  test
+  It's just for practice
 
 
 ## Table of Content
@@ -19,7 +17,7 @@
   * [Usage](#usage
 )
   
-  * [License](#license)
+  *  [License](#license)
 
   * [Contributing](#contributing)
 
@@ -29,38 +27,31 @@
 
 
 
-- [License](#license)
-  
 
   
- You can find information about MIT opensource here: https://choosealicense.com/licenses/mit/
-
+  
  
- test
-
 
 ## Installation
 
-  To install the necessary dependencies, run the folloging command: NPM i  
+  To install the necessary dependencies, run the folloging command: 
 
   npm i
 
 ## Usage
-test
+It's just for practice.
 
 ## License
-### This project is licensed by typing:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+### This project is licensed by:  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+You can find information about MIT license here: https://choosealicense.com/licenses/mit/
 
 
 ## Contributing
-### test
+###  Contributing is welcome.
 
 ## Test
 ### You can run a test by: test  
 
 ## Questions
 If you have questions please send email at: sibarraryan@gmail.com
-
- 
- 
   
