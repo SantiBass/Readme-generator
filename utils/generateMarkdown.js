@@ -43,6 +43,7 @@ function generateMarkdown(data) {
  
   ## Description
   ${data.description}
+  
 
 
 ## Table of Content
@@ -60,14 +61,19 @@ function generateMarkdown(data) {
   * [Questions](#questions)
 ## Installation
 
-  ${"To install the necessary dependencies, run the folloging command: \n"}
-  ${data.installation}
+### To install the necessary dependencies, run the following command: ${data.installation}
+### after you have installed Node.js. Form Node.js, inquirer have to be installed 
+### so you can use this program via command line. 
+
+
+  
 
 ## Usage
 ${data.repoUse}
 
 ## License
 ### This project is licensed by:  ${renderLicenseBadge(data.license)}
+
 ${renderLicenseLink(data.license)}
 
 
@@ -78,7 +84,9 @@ ${data.contribution}
 ### You can run a test by typing: ${data.test}  
 
 ## Questions
-${"If you have questions please send email at: "}${data.contact}
+### "If you have questions please send email at: ${data.contact}
+### Also, you can watch this video: 
+
   `
 }
 
