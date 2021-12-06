@@ -48,15 +48,7 @@ function generateMarkdown(data) {
 
 ## Table of Content
   
-  * [Installation](#installation)
   
-  * [Usage](#usage\n)
-  
-  * ${renderLicenseSection(data.license)}
-
-  * [Contributing](#contributing)
-
-  * [Test](#test)
 
   * [Questions](#questions)
 ## Installation

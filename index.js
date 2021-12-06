@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 // const choices = require('inquirer/lib/objects/choices');
-const generateMardown = require('./utils/generateMarkdown')
+const generateMarkdown = require('./utils/generateMarkdown')
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -87,7 +87,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then(data => {
-    const readmeFile = generateMardown.generateMarkdown(data);
+    const readmeFile = generateMarkdown.generateMarkdown(data);
     writeToFile("README.md", readmeFile ) 
 
     
